@@ -8,7 +8,7 @@ app.use(bodyParser.json());
 app.use(cors());
 
 app.get("/", async (req, res) => {
-  res.send(`<h1>Welcome to Increw Management System</h1>`);
+  res.send(`<h1>Welcome to Codespaces Project by Shafqat Ullah Khan</h1>`);
 });
 
 var port = process.env.PORT || 1337;
